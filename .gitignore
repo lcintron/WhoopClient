@@ -6,3 +6,4 @@ venv/
 .vscode/
 *.pyc
 whooptest.py
+whoop.ini
