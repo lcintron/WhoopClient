@@ -11,8 +11,8 @@ The `whoop_downloader` module can be imported and the `whoop_login` class can be
 To get started, you can use the [Testing WHOOP Downloader.ipynb](https://github.com/irickman/whoop-downloader/blob/main/Testing%20WHOOP%20Downloader.ipynb) as a guide or use the sample code below:
 
 ```
-from whoop_download import whoop_login
-client=whoop_login()
+from WhoopClient import WhoopClient
+client=WhoopClient()
 client.get_authorization('whoop.ini')
 keydata=client.get_keydata_all()
 ```
